@@ -1,14 +1,11 @@
 /*  your css code here. If applicable */
-:root {
-    --body-background-color: skyblue;
-  }
-  
-  /* Body */
-  body {
-    background-color: var(--body-background-color);
-  }
+:root{
+	background: skyblue;
+	font-family: sans-serif;
+}
 p:first-child{
-	background-color:black;
+	background-color: black;
+	color:white;
 }
 p:last-child{
 	color:red;
